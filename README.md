@@ -10,12 +10,16 @@ https://github.com/Adeodonne/DevelopsToday.NET/blob/main/Infrastructure/Database
 (The database is created and populated with data from a CSV file when the application starts. Instructions can be found in the README file in the GitHub repository.)
 
 3.Number of Rows in the Table: 29,378
+
 (Rows were excluded if they contained an empty string in any property, an incorrect datetime format, a passenger count of ≤ 0, or an invalid store_and_fwd_flag (only values 0, 1, N, and Y were accepted).)
 
 4. For Larger Datasets:
-  I would create two separate applications:
-  User App – Allows users to retrieve information from the database.
-  Data Loader App – Runs in the background to read data from CSV files and inserts it into the database in bulk (e.g., 10,000 records at a time).
+
+I would create two separate applications:
+
+User App – Allows users to retrieve information from the database.
+
+Data Loader App – Runs in the background to read data from CSV files and inserts it into the database in bulk (e.g., 10,000 records at a time).
 
 ## Getting Started
 
