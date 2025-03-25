@@ -1,6 +1,6 @@
 # DevelopsToday.NET
 
-##Deliverables
+## Deliverables
 
 1.Github:https://github.com/Adeodonne/DevelopsToday.NET
 
@@ -13,9 +13,9 @@ https://github.com/Adeodonne/DevelopsToday.NET/blob/main/Infrastructure/Database
 (Rows were excluded if they contained an empty string in any property, an incorrect datetime format, a passenger count of ≤ 0, or an invalid store_and_fwd_flag (only values 0, 1, N, and Y were accepted).)
 
 4. For Larger Datasets:
-I would create two separate applications:
-User App – Allows users to retrieve information from the database.
-Data Loader App – Runs in the background to read data from CSV files and inserts it into the database in bulk (e.g., 10,000 records at a time).
+  I would create two separate applications:
+  User App – Allows users to retrieve information from the database.
+  Data Loader App – Runs in the background to read data from CSV files and inserts it into the database in bulk (e.g., 10,000 records at a time).
 
 ## Getting Started
 
