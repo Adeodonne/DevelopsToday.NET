@@ -9,7 +9,7 @@ Create a `.env` file inside the `Presentation` layer and add the following conte
 CONNECTION_STRING='YourDatabaseConnectionString'
 ```
 
-**Note:** Ensure that the user specified in the connection string has the necessary permissions to create databases.
+**IMPORTNANT: ENSURE THAT THE USER SPECIFIED IN THE CONNECTION STRING HAS THE NECESSARY PERMISSIONS TO CREATE DATABASES**
 
 ### 2. Run the Application
 Open a terminal and navigate to the `Presentation` directory:
