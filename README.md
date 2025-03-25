@@ -1,9 +1,11 @@
 # DevelopsToday.NET
 
-Deliverables
+##Deliverables
+
 1.Github:https://github.com/Adeodonne/DevelopsToday.NET
 
-2.https://github.com/Adeodonne/DevelopsToday.NET/blob/main/Infrastructure/DatabaseInitializer/DatabaseScripts/TableCreation.sql
+2.SQL-scripts: 
+https://github.com/Adeodonne/DevelopsToday.NET/blob/main/Infrastructure/DatabaseInitializer/DatabaseScripts/TableCreation.sql
 https://github.com/Adeodonne/DevelopsToday.NET/blob/main/Infrastructure/DatabaseInitializer/DatabaseInitializer.cs
 (The database is created and populated with data from a CSV file when the application starts. Instructions can be found in the README file in the GitHub repository.)
 
